@@ -1,0 +1,56 @@
+.bg {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba($color: #000000, $alpha: 0.6);
+}
+
+:global {
+  .modals-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+  }
+  .fade-in-appear {
+    opacity: 0;
+  }
+  .fade-in-appear-active {
+    opacity: 1;
+    transition: all 300ms;
+  }
+  .fade-in-enter {
+    opacity: 0;
+  }
+  .fade-in-enter-active {
+    opacity: 1;
+    transition: all 300ms;
+  }
+  .fade-in-exit {
+    opacity: 1;
+  }
+  .fade-in-exit-active {
+    opacity: 0;
+    transition: all 300ms;
+  }
+  .fade-in-exit-done {
+    opacity: 0;
+    display: none;
+  }
+  .modal-exit-done {
+    display: none;
+  }
+}
