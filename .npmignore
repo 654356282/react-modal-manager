@@ -6,3 +6,4 @@ src
 .browserslistrc
 .idea
 .npmrc
+node_modules/

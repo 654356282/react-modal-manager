@@ -1,5 +1,5 @@
 {
-  "name": "@654356282/react-modal-manager",
+  "name": "@chiyu/react-modal-manager",
   "version": "1.2.2",
   "description": "A tool to manager the modals",
   "main": "lib/index.js",
@@ -65,6 +65,12 @@
     "webpack-dev-server": "^3.11.1",
     "webpack-merge": "^5.7.3"
   },
-  "repository": "https://github.com/654356282/react-modal-manager",
-  "homepage": "https://github.com/654356282/react-modal-manager#README"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/654356282/react-modal-manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/654356282/react-modal-manager/issues"
+  },
+  "homepage": "https://github.com/654356282/react-modal-manager"
 }
